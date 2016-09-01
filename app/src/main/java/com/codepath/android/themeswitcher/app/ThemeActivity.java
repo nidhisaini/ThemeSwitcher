@@ -9,7 +9,6 @@ import android.widget.Spinner;
 
 
 public class ThemeActivity extends ActionBarActivity {
-    ThemeActivity themeActivity;
 
     private Spinner spThemes;
 
@@ -26,7 +25,7 @@ public class ThemeActivity extends ActionBarActivity {
     }
 
     private void setupSpinnerItemSelection() {
-      //  spThemes = (Spinner) spThemes.findViewById();
+        spThemes = (Spinner) findViewById(R.id.spThemes);
         spThemes.setSelection(ThemeApplication.currentPosition);
         ThemeApplication.currentPosition = spThemes.getSelectedItemPosition();
 

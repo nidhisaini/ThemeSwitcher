@@ -13,7 +13,7 @@
         <item name="actionBarStyle">@style/action_bar_wh</item>
     </style>
 
-    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light">
         <!-- Define styles for YOUR_CUSTOM_THEME here. -->
         <item name="pageBackground">@style/page_background_wh2</item>
        <!-- <item name="textSubheader">@style/text_subheader_wh</item>
